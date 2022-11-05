@@ -4,10 +4,10 @@ IPA Tool is basically a command line tool supported in MacOS only to fetch .ipa 
 After authenticating in the respective Apple ID, one should be able to download the .ipa file from App Store.
 
 Step 1: Authenticate by logging into your Apple ID,<br>
-ipatool auth login
-Step 2: Search by the basic app name; for example, facebook
-ipatool search --limit 5 --country US --device-family iPhone --log-level info 'facebook'
-Step 3: Finally downloading the file by the correct package name!
-ipatool download --bundle-identifier com.facebook --country US --device-family iPhone --output /Users/mac/Downloads --log-level info –purchase
+`ipatool auth login`<br>
+Step 2: Search by the basic app name; for example, facebook<br>
+`ipatool search --limit 5 --country US --device-family iPhone --log-level info 'facebook'`<br>
+Step 3: Finally downloading the file by the correct package name!<br>
+`ipatool download --bundle-identifier com.facebook --country US --device-family iPhone --output /Users/mac/Downloads --log-level info –purchase`<br>
 
 Hope, it was helpful!
